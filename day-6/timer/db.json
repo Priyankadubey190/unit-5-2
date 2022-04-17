@@ -1,0 +1,41 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Learn React"
+    },
+    {
+      "id": 2,
+      "title": "Learn Java Script"
+    },
+    {
+      "id": 3,
+      "title": "Learn CSS"
+    },
+    {
+      "title": "vb",
+      "status": false,
+      "id": 4
+    },
+    {
+      "title": "Apple",
+      "status": false,
+      "id": 5
+    },
+    {
+      "title": "Mango",
+      "status": false,
+      "id": 6
+    },
+    {
+      "title": "Banana",
+      "status": false,
+      "id": 7
+    },
+    {
+      "title": "Papaya",
+      "status": false,
+      "id": 8
+    }
+  ]
+}
