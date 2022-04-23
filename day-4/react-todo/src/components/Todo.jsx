@@ -32,7 +32,8 @@ const handleDelete = (id)=>{
 }
 
 const checkChange = (id)=>{
-    setTask([...task.map(e=>e.id===id ? {...e,status:!e.status} : e)])
+    const temp = task.map(e=>e.id===id ? {...e,status:!e.status} : e)
+    setTask(temp)
 
     
 }
