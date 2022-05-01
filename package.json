@@ -5,5 +5,24 @@
     "styled": "^1.0.0",
     "styled-components": "^5.3.5",
     "vite": "^2.9.1"
-  }
+  },
+  "name": "unit-5-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Priyankadubey190/unit-5-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Priyankadubey190/unit-5-2/issues"
+  },
+  "homepage": "https://github.com/Priyankadubey190/unit-5-2#readme",
+  "description": ""
 }

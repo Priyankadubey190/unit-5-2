@@ -12,5 +12,5 @@ ReactDOM.render(
       </LangContextProvider>
    </CardContextProvider>
   </React.StrictMode>,
-  document.getElementById('root')).render()
+  document.getElementById('root'))
 
