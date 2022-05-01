@@ -1,9 +1,9 @@
-import {ADD_TODO} from "./actionType"
-import { ADD_COUNT, DELETE,TOGGLE } from "./actionType";
+import {ADD_TODO} from "./action"
+import { DELETE } from "./action"
+import { TOGGLE } from "./action"
+const init = {todos: []}
 
-const init = {todos: [] , counter:0}
-
-const reducer = (store = init, {type, payload}) =>{
+const todoReducer = (store = init, {type, payload}) =>{
     switch(type){
         case ADD_TODO:{
          return {
@@ -12,9 +12,6 @@ const reducer = (store = init, {type, payload}) =>{
          }  
          
         }
-        case ADD_COUNT: 
-         return {...store, counter: store.counter + payload};
-        
         case DELETE:
             return {...store, todos: store.todos.filter((e)=> e.id !== payload)}
 
@@ -26,4 +23,4 @@ const reducer = (store = init, {type, payload}) =>{
     }
 }
 
-export {reducer}
+export {todoReducer}
